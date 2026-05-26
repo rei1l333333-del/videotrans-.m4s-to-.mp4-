@@ -1,2 +1,14 @@
 # videotrans-.m4s-to-.mp4-
-利用go+fyne编写，调用ffmpeg进行.m4s到.mp4的转变，同时加入调用openai-whisper进行字幕的制作
+
+  视频转换 & 字幕生成桌面工具，基于 Go + Fyne 开发。
+
+## 功能
+  - M4S → MP4 转换（FFmpeg 转封装）
+  - AI 字幕生成（OpenAI Whisper）
+
+ ## 依赖
+  - FFmpeg
+  - OpenAI Whisper (`pip install openai-whisper`)
+
+## 构建
+  go build -o videotrans.exe
